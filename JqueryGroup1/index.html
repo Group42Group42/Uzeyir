@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+      let i = 0;
+      $(function () {
+        $('p').on({
+          mouseenter:function(){
+            $(this).css("background-color","darkred").css("height","90px");
+          },
+          mouseleave:function(){
+            $(this).css("background-color","darkgreen").css("height", "50px");
+          },
+          click:function(){
+            $(this).css("background-color","yellow").css("height","150px");
+          }
+
+        });
+      });
+    </script>
+    </head>
+    <body>
+    <p>Click and watch</p>
+  </body>
+</html>
+// mouseenter - basanda
+// mouseleave - basmaqdan elini cekende
+
+// mousedown - basanda
+// mouseup - basmaqdan elini cekende
+
+//mouseover - mouse ustune gelende
+//mouseout - mouse ustunnen cekilende
+
+//keydown - duymeye basmaqq
+// keyup - duymeden elimizi cekmek
+//keypress - duymeye basmaq
+
+//change - deyismeyin yoxluyur
+
